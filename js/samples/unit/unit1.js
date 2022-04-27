@@ -7,5 +7,9 @@ export const sayHello = name => {
         return "Hello, World"
     }
 
+    if (name === "Alexandra") {
+        return "Bonjour Alexandra"
+    }
+
     return `Hello, ${name}`
 }
