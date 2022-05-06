@@ -1,8 +1,8 @@
 import { retrieveSensorsData } from "./sensorsApi"
 import { data } from "../../../data/mock-homepage-data"
 
-describe('SensorApi Unit Test Suite', () => {
-    it('Should equal to data mocked', () => {
+describe('sensorApi Unit Test Suite', () => {
+    it('Should equal to the mocked data', () => {
         expect(retrieveSensorsData()).toEqual(data.facades)
     })
 })
